@@ -12,7 +12,6 @@ describe('A template string, is wrapped in ` (backticks) instead of \' or "', fu
 
   var x = 42;
   var y = 23;
-  
   describe('can evaluate variables, which are wrapped in "${" and "}"', function() {
     it('e.g. a simple variable "${x}" just gets evaluated', function() {
       var evaluated = `x=${ x }`;
